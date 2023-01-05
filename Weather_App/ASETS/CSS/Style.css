@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  padding: 0px;
+  background: url(/ASETS/IMAGE/clear_sky_1.gif);
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+.container-fluid .row .col-lg-8 {
+  position: relative;
+}
+.container-fluid .row .col-lg-8 .head {
+  padding-left: 2rem;
+  padding-top: 5rem;
+}
+.container-fluid .row .col-lg-8 .head h5 {
+  font-size: 2rem;
+  color: #fff;
+}
+.container-fluid .row .col-lg-8 .content {
+  position: absolute;
+  bottom: 5rem;
+  padding-left: 2rem;
+}
+.container-fluid .row .col-lg-8 .content h1 {
+  font-size: 8rem;
+  color: #fff;
+}
+.container-fluid .row .col-lg-8 .content sup {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+.container-fluid .row .col-lg-8 .content .City_Name {
+  padding: 0px 2rem;
+}
+.container-fluid .row .col-lg-8 .content .City_Name h2 {
+  font-size: 3.5rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.container-fluid .row .col-lg-8 .content .City_Name h6 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.container-fluid .row .col-lg-8 .content .img img {
+  width: 5rem;
+  height: 5rem;
+}
+.container-fluid .row .col-lg-8 .content .img h6 {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 400;
+}
+.container-fluid .row .col-lg-4 {
+  height: 100vh;
+  background: #fff;
+  opacity: 0.5;
+  box-shadow: 10px 1px 20px 20px rgba(255, 255, 255, 0.5);
+  padding: 1rem 0;
+}
+.container-fluid .row .col-lg-4 .search {
+  padding-left: 2rem;
+  position: relative;
+  top: 5rem;
+}
+.container-fluid .row .col-lg-4 .search input {
+  position: absolute;
+  width: 90%;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  border: 0rem;
+  outline: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0px;
+}
+.container-fluid .row .col-lg-4 .search i {
+  position: absolute;
+  font-size: 2rem;
+  padding: 1.1rem;
+  background: green;
+  margin: 0rem;
+  right: 2px;
+  border: 0.5px solid green;
+}
+.container-fluid .row .col-lg-4 .search_city {
+  position: absolute;
+  top: 15rem;
+  width: 33%;
+}
+.container-fluid .row .col-lg-4 .search_city ul {
+  padding: 0 2.5rem;
+}
+.container-fluid .row .col-lg-4 .search_city ul li {
+  padding: 1rem 0;
+}
+.container-fluid .row .col-lg-4 .search_city ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  color: #000;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1025px) {
+  html {
+    font-size: 55%;
+  }
+  .content {
+    position: absolute;
+    bottom: 5rem;
+    padding-left: 5rem;
+  }
+  .content h1 {
+    font-size: 8rem;
+  }
+  .content .City_Name {
+    padding: 0px 1rem;
+  }
+  .content .City_Name h2 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  .content .img {
+    padding-left: 2rem;
+  }
+}
+@media screen and (max-width: 790px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 481px) {
+  html {
+    font-size: 45%;
+  }
+}/*# sourceMappingURL=Style.css.map */

@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+// Variables
+$white:#fff;
+$black:#000;
+.container-fluid{
+    padding: 0px;
+    background: url(/ASETS/IMAGE/clear_sky_1.gif);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    .row{
+        .col-lg-8{
+            position: relative;
+            .head{
+              padding-left: 2rem;
+              padding-top: 5rem;
+              h5{
+                font-size: 2rem;
+                color: $white;
+              }
+            }
+           .content{
+            position: absolute;
+            bottom: 5rem;
+            padding-left: 2rem;
+            h1{
+               font-size: 8rem; 
+               color: $white;
+              //  display: flex;
+              //  justify-content: center;
+              //  align-items: center;
+             
+            }
+            sup{
+              font-size: 4rem;
+              font-weight: 700;
+              color: white;
+           
+           }
+            .City_Name{
+                padding: 0px 2rem;
+              h2{
+                font-size: 3.5rem;
+                 color: $white;
+                 letter-spacing: 2px;
+              }
+              h6{
+                font-size: 1.2rem;
+                color: $white;
+              }
+            }
+            .img{
+              img{
+                width: 5rem;
+                height: 5rem;
+              }
+              h6{
+                font-size: 1.5rem;
+                color: $white;
+                font-weight: 400;
+              }
+            }
+           }
+        }
+        .col-lg-4{
+            height: 100vh;
+            background:$white;
+            opacity: .5;
+            box-shadow: 10px 1px 20px 20px rgba($color: #ffffff, $alpha: .5) ;
+            padding: 1rem 0;
+            .search{
+                 padding-left: 2rem;
+                 position: relative;
+                 top: 5rem;
+                input{
+                  position: absolute;
+                    width: 90%;
+                    font-size: 1.5rem;
+                    padding: 1rem 1rem;
+                    border: 0rem;
+                    outline: 0;
+                    border-bottom: 1px solid rgba($color: #000000, $alpha: .5);
+                    margin: 0px;
+                    
+                }
+                i{
+                  position: absolute;
+                  font-size: 2rem;
+                  padding: 1.1rem;
+                  background: green;
+                  margin: 0rem;
+                  right: 2px;
+                  border: .5px solid green;
+                }
+            }
+            .search_city{
+              position: absolute;
+              top: 15rem;
+              width: 33%;
+              ul{
+                padding: 0 2.5rem ;
+                li{
+                  padding: 1rem 0;
+                  a{
+                    font-size: 1.5rem;
+                    text-decoration: none;
+                    letter-spacing: .2rem;
+                    color: $black;
+                    font-weight: 500;
+                  }
+                }
+              }
+            }
+        }
+    }
+}
+// MEDIA QUERY
+@media screen and (max-width: 1025px){
+  html{
+    font-size: 55%;
+  }
+  .content{
+    position: absolute;
+    bottom: 5rem;
+    padding-left: 5rem;
+    h1{
+       font-size: 8rem; 
+    }
+    .City_Name{
+        padding: 0px 1rem;
+      h2{
+        font-size: 3rem;
+         letter-spacing: 2px;
+      }
+    }
+    .img{
+        padding-left: 2rem;
+    }
+   }
+  // .col-lg-4{
+  //   .search{
+  //     position: absolute;
+  //     top: 2rem;
+  //   }
+  // }
+}
+
+
+@media screen and (max-width:790px) {
+  html{
+    font-size: 50%;
+  }
+}
+
+
+@media screen and (max-width:481px) {
+  html{
+    font-size: 45%;
+  }
+
+}
